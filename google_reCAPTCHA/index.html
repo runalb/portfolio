@@ -1,68 +1,34 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ajax Contact Form</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <title>TEST - ADD DATA</title>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 <body>
 
-    <!-- ajax contact form -->
-    <section style="margin-top: 50px;">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="card">
-                        <h5 class="card-header">Ajax Contact Form</h5>
-                        <div class="card-body">
-                            <form class="contact__form" method="post" action="mail.php">
-                                
-                                <!-- form message -->
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="contact__msg" style="display: none">
-                                            <p>Your message was sent successfully.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end message -->
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfqmg2-hUPM7rkNSj9lQ7k4blRWmD9bDnaKIg4gkIho6GRNiQ/formResponse">
+        <label >Value 1</label>
+        <input type="text" name="entry.2035906608" ><br>
 
-                                <!-- form element -->
-                                <div class="row">
-                                    <div class="col-md-6 form-group">
-                                        <input name="name" type="text" class="form-control" placeholder="Name" required>
-                                    </div>
-                                    <div class="col-md-6 form-group">
-                                        <input name="email" type="email" class="form-control" placeholder="Email" required>
-                                    </div>
-                                    <div class="col-md-6 form-group">
-                                        <input name="phone" type="text" class="form-control" placeholder="Phone" required>
-                                    </div>
-                                    <div class="col-md-6 form-group">
-                                        <input name="subject" type="text" class="form-control" placeholder="Subject" required>
-                                    </div>
-                                    <div class="col-12 form-group">
-                                        <textarea name="message" class="form-control" rows="3" placeholder="Message" required></textarea>
-                                    </div>
-                                    <div class="col-12 form-group">
-                                        <div class="g-recaptcha" data-sitekey="___enter_site_key___"></div>
-                                    </div>
-                                    <div class="col-12">
-                                        <input name="submit" type="submit" class="btn btn-success" value="Send Message">
-                                    </div>
-                                </div>
-                                <!-- end form element -->
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="main.js"></script>
+        <label >Value 2</label>
+        <input type="text" name="entry.1810906400" ><br>
+
+        <label >Value 3</label>
+        <input type="text" name="entry.1263129957" ><br>
+
+        <label >Value 4</label>
+        <input type="text"  name="entry.159774601" ><br>
+
+        
+
+        <br>  
+        <div class="g-recaptcha" data-sitekey="6LewK5keAAAAABMiwkD3twRWTMVfqqRNzwynK2fv"></div>              
+        <button type="submit">SUBMIT</button>
+    </form>
+
+
 </body>
-</html>
+</html> 
